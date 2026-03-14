@@ -1,0 +1,64 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f4f4f4;
+}
+.head{
+    color:blueviolet;
+    font-family:"caveat";
+    font-size:30px;
+}
+.container{
+margin-top:30px;
+}
+
+input{
+padding:10px;
+margin:10px;
+width:250px;
+background-color: beige;
+color:darkolivegreen;
+text-align: center;
+}
+
+button{
+margin-top: 13px;
+padding:10px 20px;
+border-style:solid;
+border-radius:4px;
+border-width:0px;
+cursor:pointer;
+background-color:aquamarine;
+color:darkmagenta;
+}
+
+.meme-box{
+position:relative;
+display:inline-block;
+margin-top:20px;
+}
+
+#memeImage{
+width:400px;
+border-radius:10px;
+}
+
+#topCaption{
+position:absolute;
+top:10px;
+left:50%;
+transform:translateX(-50%);
+color:brown;
+font-size:30px;
+text-shadow:2px 2px black;
+}
+
+#bottomCaption{
+position:absolute;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+color:brown;
+font-size:30px;
+text-shadow:2px 2px black;
+}
